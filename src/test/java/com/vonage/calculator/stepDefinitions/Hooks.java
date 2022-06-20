@@ -22,6 +22,7 @@ public class Hooks {
     @Before
     public void doSomethingAfterStep(Scenario scenario){
         System.out.println("inside before");
+        testContext.currentScenario =scenario;
     }
 
 
