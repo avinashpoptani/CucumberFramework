@@ -1,0 +1,10 @@
+test: 21
+
+test2:
+  name: Avinash
+driverPath: D:/vonage/chromedriver_win32/chromedriver.exe
+environment: local
+browser: chrome
+url: https://dwi80qdh684no.cloudfront.net/index.v5.html
+implicitlyWait: 20
+windowMaximize: true
